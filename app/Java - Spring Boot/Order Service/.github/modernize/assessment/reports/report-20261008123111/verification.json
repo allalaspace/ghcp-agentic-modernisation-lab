@@ -1,0 +1,93 @@
+{
+  "status": "success",
+  "artifactValidation": "passed",
+  "completionEvidence": {
+    "artifactValidation": "passed",
+    "runId": "20261008123111",
+    "workspacePath": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service",
+    "artifacts": {
+      "report": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/reports/report-20261008123111/report.json",
+      "normalizedAssessment": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/.memory/runs/20261008123111/normalized-assessment.json",
+      "html": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/reports/20261008123111-assess.html",
+      "appcat": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/.memory/runs/20261008123111/appcat/report.json",
+      "security": {
+        "cve-known-vulnerabilities": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cve-known-vulnerabilities.json",
+        "cwe-code-quality": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-code-quality.json",
+        "cwe-concurrency-synchronization": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-concurrency-synchronization.json",
+        "cwe-credentials-secrets": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-credentials-secrets.json",
+        "cwe-file-path-security": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-file-path-security.json",
+        "cwe-injection-attacks": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-injection-attacks.json",
+        "cwe-memory-safety": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-memory-safety.json"
+      },
+      "verification": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/reports/report-20261008123111/verification.json"
+    },
+    "findingCounts": {
+      "total": 23,
+      "tracked": 23,
+      "bySeverity": {
+        "critical": 0,
+        "high": 10,
+        "medium": 9,
+        "low": 4,
+        "info": 0
+      },
+      "byState": {
+        "new": 23
+      }
+    },
+    "topRecommendation": {
+      "kind": "generic",
+      "summary": "Spring Boot Version Has Reached the End of OSS Support",
+      "next_action": "create-modernization-plan",
+      "prefilled_prompt": "Create a modernization plan from the assessment's high-priority findings"
+    },
+    "partialTasks": [],
+    "coverageSource": "default"
+  },
+  "language": "java",
+  "domains": [
+    "java-upgrade",
+    "cloud-readiness",
+    "security"
+  ],
+  "analysisCoverage": "issue-only",
+  "coverageSource": "default",
+  "findingCounts": {
+    "total": 23,
+    "tracked": 23,
+    "bySeverity": {
+      "critical": 0,
+      "high": 10,
+      "medium": 9,
+      "low": 4,
+      "info": 0
+    },
+    "byState": {
+      "new": 23
+    }
+  },
+  "topRecommendation": {
+    "kind": "generic",
+    "summary": "Spring Boot Version Has Reached the End of OSS Support",
+    "next_action": "create-modernization-plan",
+    "prefilled_prompt": "Create a modernization plan from the assessment's high-priority findings"
+  },
+  "artifacts": {
+    "report": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/reports/report-20261008123111/report.json",
+    "normalizedAssessment": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/.memory/runs/20261008123111/normalized-assessment.json",
+    "html": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/reports/20261008123111-assess.html",
+    "appcat": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/.memory/runs/20261008123111/appcat/report.json",
+    "security": {
+      "cve-known-vulnerabilities": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cve-known-vulnerabilities.json",
+      "cwe-code-quality": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-code-quality.json",
+      "cwe-concurrency-synchronization": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-concurrency-synchronization.json",
+      "cwe-credentials-secrets": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-credentials-secrets.json",
+      "cwe-file-path-security": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-file-path-security.json",
+      "cwe-injection-attacks": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-injection-attacks.json",
+      "cwe-memory-safety": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/engines/security/incoming/cwe-memory-safety.json"
+    },
+    "verification": "/Users/mohamedaliboudiche/GitClone/copilot-worktrees/ghcp-agentic-modernisation-lab/allalaspace-curly-funicular/app/Java - Spring Boot/Order Service/.github/modernize/assessment/reports/report-20261008123111/verification.json"
+  },
+  "failedTasks": [],
+  "planningSupported": true
+}
